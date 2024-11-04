@@ -1,10 +1,14 @@
-# Vite base project for HTML/Typescript
+# Vite base a frontend project for HTML/Typescript
 
-Init a vite project with an index.html a style.css and a setup.ts.
+Init a npm project with the bundler vite, an index.html, a style.css and a setup.ts.
 
 ## Usage
 
 Clone this repo.
+Install the dependencies:
+
+    npm ci
+
 Launch the vite dev environment:
 
     npm run dev
@@ -18,6 +22,7 @@ Put all static files in public/.
 
     npm init
     npm install vite --save-dev
+    npm install typescript --save-dev
     mkdir public
     mkdir public/css
     mkdir src
